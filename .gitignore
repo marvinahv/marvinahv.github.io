@@ -1,0 +1,16 @@
+.DS_Store
+log/**/*
+tmp/**/*
+bin/*
+vendor/gems/*
+!vendor/gems/cache/
+.sass-cache/*
+.scss-cache/*
+db/*.db
+components
+dump
+server.srt
+bundle.pem
+server.key
+.env
+Procfile
