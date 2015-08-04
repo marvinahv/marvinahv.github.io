@@ -50,8 +50,30 @@ html lang="en"
         .skills.pure-g
           .skill.pure-u-2-3
             h3 = @skills[0].title
-            .desc.skill-l == RedCloth.new(@skills[0].desc).to_html
+            .desc.right-pad == RedCloth.new(@skills[0].desc).to_html
 
           .skill.pure-u-1-3
             h3 = @skills[1].title
             .desc == RedCloth.new(@skills[1].desc).to_html
+
+
+
+      section.portfolio
+        .pure-g
+          .pure-u-1-3
+          .pure-u-2-3
+            h2.right Some Works
+
+        - @portfolio.each do |item|
+          - item = item.to_ostruct
+
+          .portfolio-item.pure-g
+            .pure-u-1-3
+              .work == RedCloth.new(item.work).to_html
+              p.stack.right-pad = item.stack
+
+            .pure-u-2-3
+              h3 = item.title
+              .contact = item.contact
+              p = item.desc
+
