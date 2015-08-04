@@ -16,3 +16,4 @@ bundle.pem
 server.key
 .env
 Procfile
+public
