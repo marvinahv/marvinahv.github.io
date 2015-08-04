@@ -6,6 +6,8 @@ vendor/gems/*
 !vendor/gems/cache/
 .sass-cache/*
 .scss-cache/*
+css/.sass-cache/*
+css/.scss-cache/*
 db/*.db
 components
 dump
