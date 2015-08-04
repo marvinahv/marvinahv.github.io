@@ -3,5 +3,6 @@ require 'yaml'
 
 
 before 'index.html.slim' do
-  @timeline = YAML.load(File.open('data/timeline.yml'))
+  @experience = YAML.load(File.open('data/experience.yml'))
+  @skills = YAML.load(File.open('data/skills.yml'))
 end

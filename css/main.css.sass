@@ -1,9 +1,12 @@
 html, body
   font-size: 21px
 
+
+
 html, button, input, select, textarea,
 .pure-g [class *= "pure-u"]
   font-family: 'Roboto', sans-serif
+
 
 
 h1
@@ -21,6 +24,11 @@ h2
   color: gray
   text-transform: uppercase
   font-weight: 100
+
+h2.left
+  text-align: left
+
+h2.right
   text-align: right
 
 
@@ -29,6 +37,10 @@ h3
   font-size: 2em
   font-weight: 400
   margin: 0
+
+
+p
+  line-height: 1.35em
 
 
 
@@ -41,10 +53,6 @@ h3
 
 section
   padding: 1em 0
-
-
-
-
 
 
 
@@ -62,16 +70,30 @@ section
 
 
 
-
-.timeline-item
+.experience-item
   margin-bottom: 2em
 
   .date
     margin-top: 1em
     text-transform: uppercase
     color: gray
+    font-weight: 300
 
   .company
     color: gray
     text-transform: uppercase
     font-size: 0.85em
+    font-weight: 300
+
+
+
+
+.experience
+
+  .experience-item:last-child
+    margin-bottom: 0
+
+
+
+.skill-l
+  padding-right: 3em
