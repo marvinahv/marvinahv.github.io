@@ -17,3 +17,4 @@ server.key
 .env
 Procfile
 public
+.idea
