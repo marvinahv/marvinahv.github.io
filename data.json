@@ -1,0 +1,118 @@
+{
+  "work": [
+    {
+      "title": "Senior Ruby/JavaScript Developer",
+      "company": "Qualcomm Inc.",
+      "period": "Nov 2015 - Present",
+      "desc": "Transform monolithic Rails application to a fast, modular, and reusable architecture with React.js and micro-services.",
+      "remote": true
+    },
+
+    {
+      "title": "UX Designer / Full-stack Developer",
+      "company": "Freelance",
+      "period": "Dec 2012 - Mar 2015",
+      "desc": "Design, develop, and deploy web applications for startups/small businesses.",
+      "remote": true
+    },
+
+    {
+      "title": "Front-end Developer",
+      "company": "Kalood",
+      "period": "May 2011 - Apr 2012",
+      "desc": "Design and develop changing UI features for the main product in a fast paced environment."
+    },
+
+    {
+      "title": "Creative Web Developer",
+      "company": "Center for Teaching and Learning (BYU)",
+      "period": "Jan 2011 - Aug 2012",
+      "desc": "Develop new front-end features, maintain style guide, and review best-coding practices. Help bridge programmer/designer teams."
+    },
+
+    {
+      "title": "Tech Support Analyst",
+      "company": "Global Service Desk (LDS Church)",
+      "period": "Jun 2008 - Dec 2010",
+      "desc": "Troubleshoot and solve customer's technical issues (software/network) in a fast, smooth, and efficient manner."
+    }
+  ],
+
+  "skills": [
+    {
+      "period": 2017,
+      "skill": "React.js, ES6, Webpack"
+    },
+
+    {
+      "period": 2016,
+      "skill": "Neo4j"
+    },
+
+    {
+      "period": 2015,
+      "skill": "CoffeeScript, Redis"
+    },
+
+    {
+      "period": 2014,
+      "skill": "CoffeeScript, Redis"
+    },
+
+    {
+      "period": 2013,
+      "skill": "Rails, MongoDB, Heroku, AWS"
+    },
+
+    {
+      "period": 2012,
+      "skill": "Ruby, Git"
+    },
+
+    {
+      "period": 2011,
+      "skill": "PHP, SQL, Ajax"
+    },
+
+    {
+      "period": 2010,
+      "skill": "jQuery, HTML5, CSS3, Sass, HAML"
+    },
+
+    {
+      "period": 2009,
+      "skill": "HTML, CSS, JavaScript"
+    },
+
+    {
+      "period": 2008,
+      "skill": "Java"
+    }
+  ],
+
+  "projects": [
+    {
+      "title": "Bright People CMR",
+      "desc": "A web application to manage client’s information, payments, sessions, to-dos, and notes. An agenda with a timeline of sessions for the day and pending-todos. A tool to quote clients with different sessions and offer different payment options. Yearly statistics on client’s demographical information as well as yearly, quarterly, and monthly statistics on payments and income from clients.",
+      "period": "2013 - 2015"
+    },
+
+    {
+      "title": "Ficha.us",
+      "desc": "An app to measure kid’s soccer skills and progress. MVP and beta versions. Player management of profile to create and update their profile with team history, achievements, and some skills. Coach management of team and players. Skills scoring and measurement of different soccer skills and of different players. Recruiter's search and filtering capabilities based on player's skill, level, and other criteria.",
+      "period": "2013"
+    },
+
+    {
+      "title": "Pauta.mx",
+      "desc": "Custom CMS and website for non-profit organization. Management of content. Management of organization employees and volunteers and their bios. Management of articles and pdf books.",
+      "period": "2013"
+    },
+
+    {
+      "title": "SellThatContract.com",
+      "desc": "A site to post and find rental listings. Management of listings by registered users. Automatic and periodic transactional emails at different points in their user cycle. Payment system for premium services. Custom discount system. Admin dashboard to manage users, listings, and send massive emails to users. Analytics on listings’ views and sales.",
+      "period": "2012 - 2014"
+    }
+  ]
+}

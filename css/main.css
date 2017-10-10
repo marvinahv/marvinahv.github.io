@@ -1,5 +1,5 @@
 html, body {
-  font-size: 21px; }
+  font-size: 18px; }
 
 html, button, input, select, textarea,
 .pure-g [class*="pure-u"] {
@@ -8,10 +8,9 @@ html, button, input, select, textarea,
 h1 {
   font-family: "Roboto Condensed", sans-serif;
   text-transform: uppercase;
-  font-weight: 400; }
-
-h1 {
-  font-size: 3em; }
+  font-weight: 400;
+  font-size: 3em;
+  text-align: center; }
 
 h2 {
   font-size: 2.25em;
@@ -20,10 +19,12 @@ h2 {
   font-weight: 100; }
 
 h2.left {
-  text-align: left; }
+  text-align: left;
+  margin-left: 1em; }
 
 h2.right {
-  text-align: right; }
+  text-align: right;
+  margin-right: 1em; }
 
 h3 {
   font-family: "Alegreya", serif;
@@ -47,62 +48,43 @@ a {
 
 #main {
   max-width: 1024px;
-  padding: 0 1em;
+  padding: 2em 1em;
   margin: 0 auto; }
 
 section {
-  padding: 1em 0; }
+  margin: 1em 0 2em 0;
+}
 
-.intro h1 {
-  margin: 0;
-  margin-top: 1em; }
-.intro p {
+.period {
   margin-top: 1em;
-  font-size: 1.5em;
+  text-transform: uppercase;
   color: gray;
-  font-weight: 200; }
+  font-weight: 300; }
 
-.experience-item {
-  margin-bottom: 2em; }
-  .experience-item .date {
-    margin-top: 1em;
-    text-transform: uppercase;
-    color: gray;
-    font-weight: 300; }
-  .experience-item .company {
-    color: gray;
-    text-transform: uppercase;
-    font-size: 0.85em;
-    font-weight: 300; }
+.period-left {
+  text-align: right;
+  margin-right: 7em;
+}
 
-.skill {
+.period-right {
+  text-align: left;
+  margin-left: 7em;
+}
+
+.work-item, .project-item {
   margin-bottom: 2em; }
 
-.right-pad {
-  padding-right: 3em; }
+#skills {
+  margin-bottom: 4em;
+}
 
-.left-pad {
-  padding-left: 2em; }
+.skill-item {
+  font-size: 14px !important;
+  color: gray;
+  line-height: 1.5em; }
 
-.portfolio-item {
-  margin-bottom: 2em; }
-  .portfolio-item .work {
-    font-weight: 300; }
-  .portfolio-item .stack {
-    font-weight: 300;
-    color: gray; }
-  .portfolio-item .contact {
-    color: gray;
-    text-transform: uppercase;
-    font-size: 0.85em;
-    font-weight: 300; }
-
-.recommendation {
-  margin-bottom: 2em; }
-  .recommendation h3 {
-    font-size: 1.5em; }
-  .recommendation .person {
-    margin-top: 1em; }
-  .recommendation .title {
-    font-weight: 300;
-    color: gray; }
+.subheader {
+  color: gray;
+  text-transform: uppercase;
+  font-size: 0.85em;
+  font-weight: 300; }
