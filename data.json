@@ -41,52 +41,52 @@
   "skills": [
     {
       "period": 2017,
-      "skill": "React.js, ES6, Webpack"
+      "skills": "React.js, ES6, Webpack"
     },
 
     {
       "period": 2016,
-      "skill": "Neo4j"
+      "skills": "Neo4j"
     },
 
     {
       "period": 2015,
-      "skill": "CoffeeScript, Redis"
+      "skills": "Redis"
     },
 
     {
       "period": 2014,
-      "skill": "CoffeeScript, Redis"
+      "skills": "CoffeeScript"
     },
 
     {
       "period": 2013,
-      "skill": "Rails, MongoDB, Heroku, AWS"
+      "skills": "Rails, MongoDB, Heroku, AWS"
     },
 
     {
       "period": 2012,
-      "skill": "Ruby, Git"
+      "skills": "Ruby, Git"
     },
 
     {
       "period": 2011,
-      "skill": "PHP, SQL, Ajax"
+      "skills": "PHP, SQL, Ajax"
     },
 
     {
       "period": 2010,
-      "skill": "jQuery, HTML5, CSS3, Sass, HAML"
+      "skills": "jQuery, HTML5, CSS3, Sass, HAML"
     },
 
     {
       "period": 2009,
-      "skill": "HTML, CSS, JavaScript"
+      "skills": "HTML, CSS, JavaScript"
     },
 
     {
       "period": 2008,
-      "skill": "Java"
+      "skills": "Java"
     }
   ],
 
