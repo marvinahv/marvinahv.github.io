@@ -6,18 +6,23 @@ export default (props) => {
     backgroundColor: 'whitesmoke'
   };
   
-  const highlights = props.highlights.map((highlight) => {
-    return <li>{highlight}</li>
-  })
+  const period = props.date.end ?
+    `${props.date.start} - ${props.date.end}` :
+    `${props.date.start} - present`;
   
   return (
     <div style={style} className="project">
-      <div>{props.date.start} - {props.date.end}</div>
+      <div>{period}</div>
       <h2>{props.name}</h2>
       <p>{props.desc}</p>
       <p>{props.client}</p>
       <p>{props.role}</p>
-      <ul>{highlights}</ul>
+      
+      <ul>
+        { props.highlights.map((highlight) =>
+          <li>{highlight}</li>
+        )}
+      </ul>
     </div>
   )
 }
