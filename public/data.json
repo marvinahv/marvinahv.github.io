@@ -5,24 +5,25 @@
       "name": "InVision",
       "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
       "client": "Red Sequoia",
-      "employer": "Rockstar Coders",
       "role": "Senior Ruby/JavaScript Developer",
+      "employer": "Rockstar Coders",
       "date": {
         "start": "Feb 2019"
       },
       "highlights": [
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
-      ]
+      ],
+      "technologies": []
     },
     {
       "id": 8,
       "name": "afar.com",
       "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
       "client": "AFAR Media",
-      "employer": "Rockstar Coders",
       "url": "https://www.afar.com/",
       "role": "Senior Ruby/JavaScript Developer",
+      "employer": "Rockstar Coders",
       "date": {
         "start": "May 2018",
         "end": "Mar 2019"
@@ -30,16 +31,17 @@
       "highlights": [
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
-      ]
+      ],
+      "technologies": []
     },
     {
       "id": 7,
       "name": "Queue",
       "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
       "client": "Queue Technologies Inc.",
-      "employer": "Density Labs",
       "url": "https://queueat.com/",
       "role": "Tech Lead",
+      "employer": "Density Labs",
       "date": {
         "start": "Dec 2017",
         "end": "Apr 2018"
@@ -47,15 +49,16 @@
       "highlights": [
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
-      ]
+      ],
+      "technologies": []
     },
     {
       "id": 6,
       "name": "Chipcode",
       "desc": "A git repository management webapp used by Qualcomm to manage and distribute code for their clients.",
       "client": "Qualcomm Inc.",
-      "employer": "Softtek",
       "role": "Senior Ruby/JavaScript Developer",
+      "employer": "Softtek",
       "date": {
         "start": "Nov 2015",
         "end": "Oct 2017"
@@ -63,7 +66,8 @@
       "highlights": [
         "Transform monolithic Rails application to a fast, modular, and reusable architecture with React.js and micro-services.",
         "Implement search with Solr in Ruby with HTTParty."
-      ]
+      ],
+      "technologies": []
     },
     {
       "id": 5,
@@ -71,7 +75,8 @@
       "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
       "client": "Pauta",
       "url": "http://www.pauta.org.mx",
-      "role": "Freelance",
+      "role": "Full-stack Developer/Consultant",
+      "employer": "Freelance",
       "date": {
         "start": "Jun 2014",
         "end": "Jun 2015"
@@ -79,14 +84,16 @@
       "highlights": [
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
-      ]
+      ],
+      "technologies": []
     },
     {
       "id": 4,
       "name": "BrightPeople CRM",
       "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
       "client": "Bright People",
-      "role": "Freelance",
+      "role": "Full-stack Developer/Consultant",
+      "employer": "Freelance",
       "date": {
         "start": "Mar 2014",
         "end": "Oct 2015"
@@ -94,14 +101,16 @@
       "highlights": [
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
-      ]
+      ],
+      "technologies": []
     },
     {
       "id": 3,
       "name": "sellthatcontract.com",
       "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
       "client": "Sell That Contract LLC",
-      "role": "Freelance",
+      "role": "Full-stack Developer/Consultant",
+      "employer": "Freelance",
       "date": {
         "start": "Mar 2013",
         "end": "Jul 2015"
@@ -109,14 +118,15 @@
       "highlights": [
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
-      ]
+      ],
+      "technologies": []
     },
     {
       "id": 2,
       "name": "Kalood",
       "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-      "client": "Kalood LLC",
       "url": "https://kalood.com",
+      "employer": "Kalood LLC",
       "role": "Front-end Developer",
       "date": {
         "start": "May 2011",
@@ -125,14 +135,15 @@
       "highlights": [
         "Transform monolithic Rails application to a fast, modular, and reusable architecture with React.js and micro-services.",
         "Implement search with Solr in Ruby with HTTParty."
-      ]
+      ],
+      "technologies": []
     },
     {
       "id": 1,
       "name": "BYU Learning Suite",
       "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      "client": "BYU Center for Teaching and Learning",
       "url": "https://learningsuite.byu.edu",
+      "employer": "BYU Center for Teaching and Learning",
       "role": "Creative Front-end Developer",
       "date": {
         "start": "Jan 2011",
@@ -141,7 +152,8 @@
       "highlights": [
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
-      ]
+      ],
+      "technologies": ["html5", "css3", "sass", "haml", "JavaScript", "jQuery", "backbone.js"]
     }
   ]
 }

@@ -1,0 +1,52 @@
+.project {
+  margin: 1.5em 0;
+}
+
+
+.projectPeriod {
+  text-transform: uppercase;
+  color: gray;
+}
+
+
+.projectName {
+    
+}
+
+
+.projectClient {
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: small;
+}
+
+
+.projectHighlights li {
+  list-style-type: none;
+  margin-bottom: 0.5em;
+}
+
+
+.projectRole {
+  font-weight: bold;
+}
+
+.projectEmployer {
+  text-transform: uppercase;
+  font-size: small;
+  font-weight: normal;
+}
+
+
+.projectTechnologies {
+  max-width: 280px;
+  margin-top: 0.5em;
+}
+
+.projectTechnologies li {
+  margin-right: 0.5em;
+  padding: 0;
+  float: left;
+  list-style-type: none;
+  font-style: italic;
+}

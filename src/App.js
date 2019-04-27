@@ -1,5 +1,6 @@
 import React from 'react';
 import Project from './components/Project.js';
+import "./App.css";
 
 class App extends React.Component {
   
@@ -9,6 +10,7 @@ class App extends React.Component {
       projects: []
     };
   }
+  
   
   componentDidMount() {
     window.fetch('data.json').then((response) => {
@@ -22,16 +24,17 @@ class App extends React.Component {
   
   render() {
     return (
-      <div className="App">
+      <div className="App" >
         <h1>Marvin Alejandro Herrera Vizuett</h1>
-        <div>CV</div>
+        <h2>cv:projects</h2>
         
-        <h2>Experience by Projects:</h2>  
-        { this.state.projects.map((project) =>
-          <Project {...project} key={project.id} />
-        )};
+        <div style={{ marginTop: '2.5em' }}>
+          { this.state.projects.map((project) =>
+            <Project {...project} key={project.id} />
+          )}
+        </div>
       </div>
-    ); 
+    )
   }
 }
 
