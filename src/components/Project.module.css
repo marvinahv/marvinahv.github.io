@@ -1,16 +1,18 @@
 .project {
-  margin: 1.5em 0;
+  margin: 2.6em 0;
 }
 
 
 .projectPeriod {
   text-transform: uppercase;
   color: gray;
+  margin-bottom: 10px;
+  font-size: small;
 }
 
 
 .projectName {
-    
+  margin-bottom: 3px;
 }
 
 
@@ -28,25 +30,33 @@
 
 
 .projectRole {
-  font-weight: bold;
+  margin-bottom: 3px;
+  font-size: 0.75em;
+  text-transform: uppercase;
 }
 
 .projectEmployer {
   text-transform: uppercase;
   font-size: small;
   font-weight: normal;
+  color: #444;
 }
 
 
 .projectTechnologies {
-  max-width: 280px;
-  margin-top: 0.5em;
+  display: flex;
+  margin: 0.5em 0;
 }
 
 .projectTechnologies li {
-  margin-right: 0.5em;
+  margin-right: 13px;
+  margin-bottom: 3px;
   padding: 0;
-  float: left;
   list-style-type: none;
-  font-style: italic;
+  text-transform: uppercase;
+  font-size: small;
+}
+
+.projectTechnologies li:last-child {
+ clear: both; 
 }

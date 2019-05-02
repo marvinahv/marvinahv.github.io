@@ -26,7 +26,7 @@ class App extends React.Component {
     return (
       <div className="App" >
         <h1>Marvin Alejandro Herrera Vizuett</h1>
-        <h2>cv:projects</h2>
+        <h2>cv | projects</h2>
         
         <div style={{ marginTop: '2.5em' }}>
           { this.state.projects.map((project) =>
