@@ -23,9 +23,38 @@
 }
 
 
+.projectDesc {
+  margin: 10px 0;  
+}
+
+
+.projectHighlight {
+  margin-bottom: 10px;
+}
+
 .projectHighlights li {
   list-style-type: none;
   margin-bottom: 0.5em;
+}
+
+
+.projectHighlightDesc {
+  margin: 0;
+}
+
+
+.projectHighlightTech {
+  text-transform: uppercase;
+  color: gray;
+  font-size: small;
+  margin-right: 10px;
+}
+
+
+.projectHighlightsTech li {
+  text-transform: uppercase;
+  margin-right: 10px;
+  font-size: 0.8em;
 }
 
 
@@ -45,6 +74,7 @@
 
 .projectTechnologies {
   display: flex;
+  flex-wrap: wrap;
   margin: 0.5em 0;
 }
 

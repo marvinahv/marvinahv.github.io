@@ -28,13 +28,21 @@ export default (props) => {
         {period}
       </div>
       
-      <p>{props.desc}</p>
+      <p className={styles.projectDesc}><b>{props.desc}</b></p>
       
-      <ul className={styles.projectTechnologies}>
-        { props.technologies.map((tech, index) =>
-          <li key={index}>{tech}</li>
+      <div className={styles.projectHighlights}>
+        { props.highlights.map((highlight, index) =>
+          <div className={styles.projectHighlight} key={index}>
+            <p className={styles.projectHighlightDesc}>
+              {highlight.desc}
+              &nbsp;|&nbsp;
+              { highlight.tech.map((technology) =>
+                <span className={styles.projectHighlightTech} key={technology}>{technology}</span>
+              )}
+            </p>
+          </div>
         )}
-      </ul>
+      </div>
     </div>
   )
 }

@@ -16,7 +16,6 @@ class App extends React.Component {
     window.fetch('data.json').then((response) => {
       return response.json()
     }).then((data) => {
-      console.log(data.projects);
       this.setState({ projects: data.projects });
     });
   }
@@ -30,7 +29,7 @@ class App extends React.Component {
         
         <div style={{ marginTop: '2.5em' }}>
           { this.state.projects.map((project) =>
-            <Project {...project} key={project.id} />
+            <Project {...project} key={project.name} />
           )}
         </div>
       </div>

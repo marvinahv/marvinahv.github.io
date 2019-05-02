@@ -1,22 +1,8 @@
 {
   "projects": [
     {
-      "name": "Augurio",
-      "desc": "A serverless, progressive, and responsive web app to manage personal finances built entirely on AWS.",
-      "role": "Product designer/developer",
-      "employer": "Personal",
-      "date": {
-        "start": "Mar 2019"
-      },
-      "highlights": [
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
-      ],
-      "technologies": ["AWS Cognito", "AWS API Gateway", "React", "Ruby on Rails 5", "ES6", "Webpack", "CSS", "JSX", "HTML", "AWS S3"]
-    },
-    {
       "name": "InVision",
-      "desc": "A web application that manages information for a life sciences research company.",
+      "desc": "A web application to manage data for a social sciences research company.",
       "client": "Red Sequoia",
       "role": "Senior Ruby/JavaScript Developer",
       "employer": "Rockstar Coders",
@@ -24,14 +10,27 @@
         "start": "Feb 2019"
       },
       "highlights": [
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
-      ],
-      "technologies": []
+        {
+          "tech": ["Rails 4.2", "ElasticSearch", "React.js"],
+          "desc": "Implement full-text search inside attached files (.xls, .pdf, .doc, etc) using a hosted Elasticsearch instance and within a React component."
+        },
+        {
+          "tech": ["Rails 4.2", "cancancan"],
+          "desc": "Refactor role-based views using cancancan gem. Implement new roles and permissions."
+        },
+        {
+          "tech": ["Rails 4.2", "React.js", "JSX"],
+          "desc": "Refactor search bar templates and partials into reusable React component."
+        },
+        {
+          "tech": ["Rails 4.2", "Ruby"], 
+          "desc": "Refactor code for search functionality and rake data management tasks to use a more object-oriented and modular approach."
+        }
+      ]
     },
     {
       "name": "afar.com",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      "desc": "An online magazine for world travelers.",
       "client": "AFAR Media",
       "url": "https://www.afar.com/",
       "role": "Senior Ruby/JavaScript Developer",
@@ -41,14 +40,23 @@
         "end": "Mar 2019"
       },
       "highlights": [
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
-      ],
-      "technologies": []
+        {
+          "tech": ["React.js", "webpack", "javaScript", "ES6", "Google Maps API", "Google Places API"],
+          "desc": "Refactor old jQuery-based CRM tool for managing places into set of 10+ reusable React components integrating Google Maps and Places API."
+        },
+        {
+          "tech": ["ux", "ui", "html5", "css3"],
+          "desc": "Redesign UI flow for one of the most used CMS tools for managing places in the site to make it load faster, work correctly, and easier to use."
+        },
+        {
+          "tech": ["Rails 4.2", "ActiveAdmin", "MySQL"],
+          "desc": "Develop new features, pages, and rake tasks for managing content and processes."
+        }
+      ]
     },
     {
       "name": "Queue",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      "desc": "A marketing SaaS for managing online social contests for thousands of users and big clients.",
       "client": "Queue Technologies Inc.",
       "url": "https://queueat.com/",
       "role": "Tech Lead",
@@ -58,14 +66,23 @@
         "end": "Apr 2018"
       },
       "highlights": [
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
-      ],
-      "technologies": []
+        {
+          "tech": ["AWS Beanstalk", "devOps", "AWS RDS", "MySQL"],
+          "desc": "Manage staging and production environments. Fix and improve configuration for AWS services. Manage project git flow and deployments. Fix production issues."
+        },
+        {
+          "tech": ["Rails 4", "Redis", "Angular.js", "Facebook API", "Instagram API", "Youtube API"],
+          "desc": "Implement features in a fast-paced environment integrating APIs for multiple social platforms. Fix issues with changing Facebook APIs."
+        },
+        {
+          "tech": ["architecture", "react", "AWS Serverless"],
+          "desc": "Start implementation of React refactoring of app and roadmap for serverless refactoring."
+        }
+      ]
     },
     {
       "name": "Chipcode",
-      "desc": "A git repository management webapp used by Qualcomm to manage and distribute code for their clients.",
+      "desc": "A git repository management webapp to manage and distribute code for their clients, such as Samsung and Google.",
       "client": "Qualcomm Inc.",
       "role": "Senior Ruby/JavaScript Developer",
       "employer": "Softtek",
@@ -74,46 +91,73 @@
         "end": "Oct 2017"
       },
       "highlights": [
-        "Transform monolithic Rails application to a fast, modular, and reusable architecture with React.js and micro-services.",
-        "Implement search with Solr in Ruby with HTTParty."
-      ],
-      "technologies": []
+        {
+          "tech": ["Rails 4", "React.js", "Backbone.js"],
+          "desc": "Convert repository dashboard view from Rails to a set of reusable Backbone and React components that consume a JSON-based API."
+        },
+        {
+          "tech": ["Solr", "PostgreSQL", "Ruby", "Rails 4", "HTTParty"],
+          "desc": "Implement repository search in Solr with HTTP in a Backbone module."
+        }
+      ]
     },
     {
-      "name": "BrightPeople CRM",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      "name": "BrightCRM",
+      "desc": "A custom web-based CRM for Bright People, a career, talent, and business coaching business.",
       "client": "Bright People",
-      "role": "Full-stack Developer/Consultant",
+      "role": "Software Consultant / Full-stack Developer",
       "employer": "Freelance",
       "date": {
         "start": "Mar 2014",
         "end": "Oct 2015"
       },
       "highlights": [
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
-      ],
-      "technologies": []
+        {
+          "tech": ["architecture", "MongoDB", "Heroku", "ux", "ui", "html5", "css3", "sass", "Bootstrap"],
+          "desc": "Design and implement database, controllers, and views for managing agenda, clients, todos, sessions, and payments."
+        },
+        {
+          "tech": ["javaScript", "Backbone.js", "HTML5", "WebSockets", "Pusher"],
+          "desc": "Implement real-time feature for assigned todos and sessions in agenda."
+        },
+        {
+          "tech": ["MongoDB", "html5", "css", "javaScript", "jQuery"],
+          "desc": "Design and implement data aggregation displayed in graphs for payments analysis."
+        }
+      ]
     },
     {
       "name": "sellthatcontract.com",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      "desc": "An online platform for selling and buying discounted rent contracts.",
       "client": "Sell That Contract LLC",
-      "role": "Full-stack Developer/Consultant",
+      "role": "Software Consultant / Full-stack Developer",
       "employer": "Freelance",
       "date": {
         "start": "Mar 2013",
         "end": "Jul 2015"
       },
       "highlights": [
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
-      ],
-      "technologies": []
+        {
+          "tech": ["architecture", "Heroku", "PostgreSQL", "Rails 3.2", "HTML5", "CSS3", "Bootstrap"],
+          "desc": "Design database, models, view and controlers for managing users, listings, payments, and many other features."
+        },
+        {
+          "tech": ["Rails 3.2", "Stripe API", "Google Maps API", "Sendgrid API", "AWS S3"],
+          "desc": "Implement features using third-party APIs like Stripe for payments, Google Maps API for listings, and Sendgrid for all transactional emails."
+        },
+        {
+          "tech": ["architecture", "devOps"],
+          "desc": "Setup and manage application hosting, versioning, and deployments in Heroku."
+        },
+        {
+          "tech": ["ux/ui", "javaScript", "jQUery"],
+          "desc": "Implement interactive parts of the application for code disccounts, payment cart, slideshows, etc."
+        }
+      ]
     },
     {
       "name": "Kalood",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      "desc": "A startup online platform for sharing and finding the best deals online.",
       "url": "https://kalood.com",
       "employer": "Kalood LLC",
       "role": "Front-end Developer",
@@ -122,14 +166,23 @@
         "end": "Apr 2012"
       },
       "highlights": [
-        "Transform monolithic Rails application to a fast, modular, and reusable architecture with React.js and micro-services.",
-        "Implement search with Solr in Ruby with HTTParty."
-      ],
-      "technologies": []
+        {
+          "tech": ["javaScript", "jQuery", "PHP", "AJAX"],
+          "desc": "Implement infinite scroll/pagination for newsfeed page."
+        },
+        {
+          "tech": ["UX", "UI", "HTML5", "CSS3"],
+          "desc": "Design primary newsfeed items view and implement it in the front-end, embedded on PHP Smary templates."
+        },
+        {
+          "tech": ["UX", "UI", "HTML5", "CSS3"],
+          "desc": "Implement interactive functions to items (view counts, likes, etc)."
+        }
+      ]
     },
     {
       "name": "BYU Learning Suite",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "desc": "An in-house web-based learning management system to replace Blackboard in the university.",
       "url": "https://learningsuite.byu.edu",
       "employer": "BYU Center for Teaching and Learning",
       "role": "Creative Front-end Developer",
@@ -138,10 +191,23 @@
         "end": "Aug 2012"
       },
       "highlights": [
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
-      ],
-      "technologies": ["html5", "css3", "sass", "haml", "JavaScript", "jQuery", "backbone.js"]
+        {
+          "tech": ["research", "architecture", "javaScript", "Backbone.js"],
+          "desc": "Promote implementation of Backbone.js modules for front-end instead of PHP templates. Research best practices and teach the framework to other developers."
+        },
+        {
+          "tech": ["JavaScript", "jQuery"],
+          "desc": "Create custom jQuery plugins for the application like date and time pickers, data templating, and table sorting."
+        },
+        {
+          "tech": ["html5", "css3", "JavaScript"],
+          "desc": "Create and maintaing a styleguide for the project (css and jquery plugins), with live-code examples."
+        },
+        {
+          "tech": ["sass", "html5", "css3"],
+          "desc": "Refactor global and inline css sass, HTML5-compliant, and semantic, modules."
+        }
+      ]
     }
   ]
 }
