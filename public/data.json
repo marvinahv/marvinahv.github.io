@@ -1,9 +1,22 @@
 {
   "projects": [
     {
-      "id": 9,
+      "name": "Augurio",
+      "desc": "A serverless, progressive, and responsive web app to manage personal finances built entirely on AWS.",
+      "role": "Product designer/developer",
+      "employer": "Personal",
+      "date": {
+        "start": "Mar 2019"
+      },
+      "highlights": [
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
+      ],
+      "technologies": ["AWS Cognito", "AWS API Gateway", "React", "Ruby on Rails 5", "ES6", "Webpack", "CSS", "JSX", "HTML", "AWS S3"]
+    },
+    {
       "name": "InVision",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      "desc": "A web application that manages information for a life sciences research company.",
       "client": "Red Sequoia",
       "role": "Senior Ruby/JavaScript Developer",
       "employer": "Rockstar Coders",
@@ -17,7 +30,6 @@
       "technologies": []
     },
     {
-      "id": 8,
       "name": "afar.com",
       "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
       "client": "AFAR Media",
@@ -35,7 +47,6 @@
       "technologies": []
     },
     {
-      "id": 7,
       "name": "Queue",
       "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
       "client": "Queue Technologies Inc.",
@@ -53,7 +64,6 @@
       "technologies": []
     },
     {
-      "id": 6,
       "name": "Chipcode",
       "desc": "A git repository management webapp used by Qualcomm to manage and distribute code for their clients.",
       "client": "Qualcomm Inc.",
@@ -70,25 +80,6 @@
       "technologies": []
     },
     {
-      "id": 5,
-      "name": "pauta.org.mx",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-      "client": "Pauta",
-      "url": "http://www.pauta.org.mx",
-      "role": "Full-stack Developer/Consultant",
-      "employer": "Freelance",
-      "date": {
-        "start": "Jun 2014",
-        "end": "Jun 2015"
-      },
-      "highlights": [
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
-      ],
-      "technologies": []
-    },
-    {
-      "id": 4,
       "name": "BrightPeople CRM",
       "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
       "client": "Bright People",
@@ -105,7 +96,6 @@
       "technologies": []
     },
     {
-      "id": 3,
       "name": "sellthatcontract.com",
       "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
       "client": "Sell That Contract LLC",
@@ -122,7 +112,6 @@
       "technologies": []
     },
     {
-      "id": 2,
       "name": "Kalood",
       "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
       "url": "https://kalood.com",
@@ -139,7 +128,6 @@
       "technologies": []
     },
     {
-      "id": 1,
       "name": "BYU Learning Suite",
       "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       "url": "https://learningsuite.byu.edu",
