@@ -1,0 +1,27 @@
+#wrapper{
+	width: 900px;
+	margin: 0 auto;
+}
+
+.picGroup{
+	float: left;
+	overflow: auto;
+	clear: after;
+}
+
+.pic{
+	width: 200px;
+	border-style: none;
+}
+
+h1{
+	text-align: center;
+}
+
+h2{
+	font-size: 20px;
+}
+
+img{
+	margin-right: 10px;
+}

@@ -1,0 +1,41 @@
+article, aside, details, figcaption, figure, footer, header,
+  hgroup, menu, nav, section { display: block; }
+
+div#container{
+	width: 900px;
+	margin: 0 auto;
+}
+
+div.paragraph{
+	overflow: auto;
+	margin-top: 20px;
+}
+
+div#Marvin{
+	margin-top: 50px;
+}
+
+img{
+	float: left;
+	display: block;
+	overflow: auto;
+	margin-right: 10px;
+	border-style: none;	
+}
+
+img.newline{
+	clear: both;
+}
+
+img.withcomma, img.withperiod{
+	margin-right:0;
+	padding-right: 0;
+}
+
+#name{
+	display:none;
+}
+
+#validators{
+	display: none;
+}
