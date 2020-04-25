@@ -1,6 +1,31 @@
 {
   "projects": [
     {
+      "name": "G5 Integrations",
+      "desc": "Software and marketing solutions for Real Estate companies.",
+      "client": "G5 Marketing",
+      "role": "Senior Ruby Engineer",
+      "employer": "Aelogica",
+      "date": {
+        "start": "Aug 2019",
+        "end": "Oct 2019"
+      },
+      "highlights": [
+        {
+          "tech": ["Ruby", "Rubygems", "Gemfury", "RSpec"],
+          "desc": "Update one of the core integration gems for a major vendor to use the MITS 4.0 standard."
+        },
+        {
+          "tech": ["Rails 5.2", "RSpec"],
+          "desc": "Implement upgrade to MITS 4.0 gem in the inventory-etl, vendor-lead-pull, and g5-vendor-leads services."
+        },
+        {
+          "tech": ["Rails 5.2", "RSpec", "Javascript"],
+          "desc": "Add pagination to integrations dashboard for pulled jobs with infinite scroll."
+        }
+      ]
+    },
+    {
       "name": "InVision",
       "desc": "A web application to manage data for a social sciences research company.",
       "client": "Red Sequoia",
