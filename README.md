@@ -1,6 +1,9 @@
 # marvinahv.github.io
-Personal Gihub page.
+Personal Gihub page. This is the compiled code for the site to load in Github pages. The source of this is on the `source` branch.
 
+
+# VERSIONS
+There are different (older) versions of this resume, you can see them in the different branches (TODO: Link them).
 
 
 # README
