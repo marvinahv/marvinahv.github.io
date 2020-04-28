@@ -1,6 +1,35 @@
 {
   "projects": [
     {
+      "name": "chrysaetosapp.com",
+      "desc": "Mobile-first web products to control and improve bar/restaurant businesses.",
+      "client": "ChrysaetosApp",
+      "role": "Product Development Engineer",
+      "employer": "Freelance",
+      "date": {
+        "start": "Nov 2019",
+        "end": "present"
+      },
+      "highlights": [
+        {
+          "tech": ["Markdown"],
+          "desc": ["Gather requirements from business owners and translate them into feature specs and documentation."]
+        },
+        {
+          "tech": ["Rails 5.2", "PostgreSQL"],
+          "desc": "Design the database model and document data definitions and schema."
+        },
+        {
+          "tech": ["Rails 5.2", "Minitest", "QR-codes"],
+          "desc": "Design and develop with Test Driven Development a REST API that the different client apps can interact with."
+        },
+        {
+          "tech": ["React.js", "QR-codes"],
+          "desc": "Implement 3 Single Page Application clients for the different services and products for Owners, Managers, and Employees with differet roles."
+        }
+      ]
+    },
+    {
       "name": "G5 Integrations",
       "desc": "Software and marketing solutions for Real Estate companies.",
       "client": "G5 Marketing",
@@ -48,7 +77,7 @@
           "desc": "Refactor search bar templates and partials into reusable React component."
         },
         {
-          "tech": ["Rails 4.2", "Ruby"], 
+          "tech": ["Rails 4.2", "Ruby"],
           "desc": "Refactor code for search functionality and rake data management tasks to use a more object-oriented and modular approach."
         }
       ]
