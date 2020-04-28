@@ -2,12 +2,11 @@ import React from 'react';
 import styles from './Project.module.css';
 
 export default (props) => {
-  const period = props.date.end ?
-    `${props.date.start} - ${props.date.end}` :
-    `${props.date.start} - present`;
-  
+  const end = props.date.end || 'present';
+  const period = `${props.date.start} - ${end}`;
+
   // UI
-  // 
+  //
   return (
     <div className={styles.project}>
       <h3 className={styles.projectName}>
@@ -17,7 +16,7 @@ export default (props) => {
           {props.role}
         </span>
       </h3>
-      
+
       <div className={styles.projectPeriod}>
         { props.employer &&
           <span className={styles.projectEmployer}>
@@ -27,9 +26,9 @@ export default (props) => {
         &nbsp;|&nbsp;
         {period}
       </div>
-      
+
       <p className={styles.projectDesc}><b>{props.desc}</b></p>
-      
+
       <div className={styles.projectHighlights}>
         { props.highlights.map((highlight, index) =>
           <div className={styles.projectHighlight} key={index}>
