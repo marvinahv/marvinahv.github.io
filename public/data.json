@@ -1,183 +1,56 @@
 {
   "projects": [
     {
-      "name": "chrysaetosapp.com",
-      "desc": "Mobile-first web products to control and improve bar/restaurant businesses.",
-      "client": "ChrysaetosApp",
-      "role": "Product Development Engineer",
-      "employer": "Freelance",
+      "name": "BYU Learning Suite",
+      "desc": "An in-house web-based learning management system to replace Blackboard in the university.",
+      "url": "https://learningsuite.byu.edu",
+      "employer": "BYU Center for Teaching and Learning",
+      "role": "Creative Front-end Developer",
       "date": {
-        "start": "Nov 2019",
-        "end": "present"
+        "start": "Jan 2011",
+        "end": "Aug 2012"
       },
       "highlights": [
         {
-          "tech": ["Markdown"],
-          "desc": ["Gather requirements from business owners and translate them into feature specs and documentation."]
+          "tech": ["research", "architecture", "javaScript", "Backbone.js"],
+          "desc": "Promote implementation of Backbone.js modules for front-end instead of PHP templates. Research best practices and teach the framework to other developers."
         },
         {
-          "tech": ["Rails 5.2", "PostgreSQL"],
-          "desc": "Design the database model and document data definitions and schema."
+          "tech": ["JavaScript", "jQuery"],
+          "desc": "Create custom jQuery plugins for the application like date and time pickers, data templating, and table sorting."
         },
         {
-          "tech": ["Rails 5.2", "Minitest", "QR-codes"],
-          "desc": "Design and develop with Test Driven Development a REST API that the different client apps can interact with."
+          "tech": ["html5", "css3", "JavaScript"],
+          "desc": "Create and maintaing a styleguide for the project (css and jquery plugins), with live-code examples."
         },
         {
-          "tech": ["React.js", "QR-codes"],
-          "desc": "Implement 3 Single Page Application clients for the different services and products for Owners, Managers, and Employees with differet roles."
+          "tech": ["sass", "html5", "css3"],
+          "desc": "Refactor global and inline css sass, HTML5-compliant, and semantic, modules."
         }
       ]
     },
     {
-      "name": "G5 Integrations",
-      "desc": "Software and marketing solutions for Real Estate companies.",
-      "client": "G5 Marketing",
-      "role": "Senior Ruby Engineer",
-      "employer": "Aelogica",
+      "name": "Kalood",
+      "desc": "A startup online platform for sharing and finding the best deals online.",
+      "url": "https://kalood.com",
+      "employer": "Kalood LLC",
+      "role": "Front-end Developer",
       "date": {
-        "start": "Aug 2019",
-        "end": "Nov 2019"
+        "start": "May 2011",
+        "end": "Apr 2012"
       },
       "highlights": [
         {
-          "tech": ["Ruby", "Rubygems", "Gemfury", "RSpec"],
-          "desc": "Update one of the core integration gems for a major vendor to use the MITS 4.0 standard."
+          "tech": ["javaScript", "jQuery", "PHP", "AJAX"],
+          "desc": "Implement infinite scroll/pagination for newsfeed page."
         },
         {
-          "tech": ["Rails 5.2", "RSpec"],
-          "desc": "Implement upgrade to MITS 4.0 gem in the inventory-etl, vendor-lead-pull, and g5-vendor-leads services."
+          "tech": ["UX", "UI", "HTML5", "CSS3"],
+          "desc": "Design primary newsfeed items view and implement it in the front-end, embedded on PHP Smary templates."
         },
         {
-          "tech": ["Rails 5.2", "RSpec", "Javascript"],
-          "desc": "Add pagination to integrations dashboard for pulled jobs with infinite scroll."
-        }
-      ]
-    },
-    {
-      "name": "InVision",
-      "desc": "A web application to manage data for a social sciences research company.",
-      "client": "Red Sequoia",
-      "role": "Senior Ruby/JavaScript Developer",
-      "employer": "Rockstar Coders",
-      "date": {
-        "start": "Feb 2019",
-        "end": "May 2019"
-      },
-      "highlights": [
-        {
-          "tech": ["Rails 4.2", "ElasticSearch", "React.js"],
-          "desc": "Implement full-text search inside attached files (.xls, .pdf, .doc, etc) using a hosted Elasticsearch instance and within a React component."
-        },
-        {
-          "tech": ["Rails 4.2", "cancancan"],
-          "desc": "Refactor role-based views using cancancan gem. Implement new roles and permissions."
-        },
-        {
-          "tech": ["Rails 4.2", "React.js", "JSX"],
-          "desc": "Refactor search bar templates and partials into reusable React component."
-        },
-        {
-          "tech": ["Rails 4.2", "Ruby"],
-          "desc": "Refactor code for search functionality and rake data management tasks to use a more object-oriented and modular approach."
-        }
-      ]
-    },
-    {
-      "name": "afar.com",
-      "desc": "An online magazine for world travelers.",
-      "client": "AFAR Media",
-      "url": "https://www.afar.com/",
-      "role": "Senior Ruby/JavaScript Developer",
-      "employer": "Rockstar Coders",
-      "date": {
-        "start": "May 2018",
-        "end": "Mar 2019"
-      },
-      "highlights": [
-        {
-          "tech": ["React.js", "webpack", "javaScript", "ES6", "Google Maps API", "Google Places API"],
-          "desc": "Refactor old jQuery-based CRM tool for managing places into set of 10+ reusable React components integrating Google Maps and Places API."
-        },
-        {
-          "tech": ["ux", "ui", "html5", "css3"],
-          "desc": "Redesign UI flow for one of the most used CMS tools for managing places in the site to make it load faster, work correctly, and easier to use."
-        },
-        {
-          "tech": ["Rails 4.2", "ActiveAdmin", "MySQL"],
-          "desc": "Develop new features, pages, and rake tasks for managing content and processes."
-        }
-      ]
-    },
-    {
-      "name": "Queue",
-      "desc": "A marketing SaaS for managing online social contests for thousands of users and big clients.",
-      "client": "Queue Technologies Inc.",
-      "url": "https://queueat.com/",
-      "role": "Tech Lead",
-      "employer": "Density Labs",
-      "date": {
-        "start": "Dec 2017",
-        "end": "Apr 2018"
-      },
-      "highlights": [
-        {
-          "tech": ["AWS Beanstalk", "devOps", "AWS RDS", "MySQL"],
-          "desc": "Manage staging and production environments. Fix and improve configuration for AWS services. Manage project git flow and deployments. Fix production issues."
-        },
-        {
-          "tech": ["Rails 4", "Redis", "Angular.js", "Facebook API", "Instagram API", "Youtube API"],
-          "desc": "Implement features in a fast-paced environment integrating APIs for multiple social platforms. Fix issues with changing Facebook APIs."
-        },
-        {
-          "tech": ["architecture", "react", "AWS Serverless"],
-          "desc": "Start implementation of React refactoring of app and roadmap for serverless refactoring."
-        }
-      ]
-    },
-    {
-      "name": "Chipcode",
-      "desc": "A git repository management webapp to manage and distribute code for their clients, such as Samsung and Google.",
-      "client": "Qualcomm Inc.",
-      "role": "Senior Ruby/JavaScript Developer",
-      "employer": "Softtek",
-      "date": {
-        "start": "Nov 2015",
-        "end": "Oct 2017"
-      },
-      "highlights": [
-        {
-          "tech": ["Rails 4", "React.js", "Backbone.js"],
-          "desc": "Convert repository dashboard view from Rails to a set of reusable Backbone and React components that consume a JSON-based API."
-        },
-        {
-          "tech": ["Solr", "PostgreSQL", "Ruby", "Rails 4", "HTTParty"],
-          "desc": "Implement repository search in Solr with HTTP in a Backbone module."
-        }
-      ]
-    },
-    {
-      "name": "BrightCRM",
-      "desc": "A custom web-based CRM for Bright People, a career, talent, and business coaching business.",
-      "client": "Bright People",
-      "role": "Software Consultant / Full-stack Developer",
-      "employer": "Freelance",
-      "date": {
-        "start": "Mar 2014",
-        "end": "Oct 2015"
-      },
-      "highlights": [
-        {
-          "tech": ["architecture", "MongoDB", "Heroku", "ux", "ui", "html5", "css3", "sass", "Bootstrap"],
-          "desc": "Design and implement database, controllers, and views for managing agenda, clients, todos, sessions, and payments."
-        },
-        {
-          "tech": ["javaScript", "Backbone.js", "HTML5", "WebSockets", "Pusher"],
-          "desc": "Implement real-time feature for assigned todos and sessions in agenda."
-        },
-        {
-          "tech": ["MongoDB", "html5", "css", "javaScript", "jQuery"],
-          "desc": "Design and implement data aggregation displayed in graphs for payments analysis."
+          "tech": ["UX", "UI", "HTML5", "CSS3"],
+          "desc": "Implement interactive functions to items (view counts, likes, etc)."
         }
       ]
     },
@@ -211,56 +84,183 @@
       ]
     },
     {
-      "name": "Kalood",
-      "desc": "A startup online platform for sharing and finding the best deals online.",
-      "url": "https://kalood.com",
-      "employer": "Kalood LLC",
-      "role": "Front-end Developer",
+      "name": "BrightCRM",
+      "desc": "A custom web-based CRM for Bright People, a career, talent, and business coaching business.",
+      "client": "Bright People",
+      "role": "Software Consultant / Full-stack Developer",
+      "employer": "Freelance",
       "date": {
-        "start": "May 2011",
-        "end": "Apr 2012"
+        "start": "Mar 2014",
+        "end": "Oct 2015"
       },
       "highlights": [
         {
-          "tech": ["javaScript", "jQuery", "PHP", "AJAX"],
-          "desc": "Implement infinite scroll/pagination for newsfeed page."
+          "tech": ["architecture", "MongoDB", "Heroku", "ux", "ui", "html5", "css3", "sass", "Bootstrap"],
+          "desc": "Design and implement database, controllers, and views for managing agenda, clients, todos, sessions, and payments."
         },
         {
-          "tech": ["UX", "UI", "HTML5", "CSS3"],
-          "desc": "Design primary newsfeed items view and implement it in the front-end, embedded on PHP Smary templates."
+          "tech": ["javaScript", "Backbone.js", "HTML5", "WebSockets", "Pusher"],
+          "desc": "Implement real-time feature for assigned todos and sessions in agenda."
         },
         {
-          "tech": ["UX", "UI", "HTML5", "CSS3"],
-          "desc": "Implement interactive functions to items (view counts, likes, etc)."
+          "tech": ["MongoDB", "html5", "css", "javaScript", "jQuery"],
+          "desc": "Design and implement data aggregation displayed in graphs for payments analysis."
         }
       ]
     },
     {
-      "name": "BYU Learning Suite",
-      "desc": "An in-house web-based learning management system to replace Blackboard in the university.",
-      "url": "https://learningsuite.byu.edu",
-      "employer": "BYU Center for Teaching and Learning",
-      "role": "Creative Front-end Developer",
+      "name": "Chipcode",
+      "desc": "A git repository management webapp to manage and distribute code for their clients, such as Samsung and Google.",
+      "client": "Qualcomm Inc.",
+      "role": "Senior Ruby/JavaScript Developer",
+      "employer": "Softtek",
       "date": {
-        "start": "Jan 2011",
-        "end": "Aug 2012"
+        "start": "Nov 2015",
+        "end": "Oct 2017"
       },
       "highlights": [
         {
-          "tech": ["research", "architecture", "javaScript", "Backbone.js"],
-          "desc": "Promote implementation of Backbone.js modules for front-end instead of PHP templates. Research best practices and teach the framework to other developers."
+          "tech": ["Rails 4", "React.js", "Backbone.js"],
+          "desc": "Convert repository dashboard view from Rails to a set of reusable Backbone and React components that consume a JSON-based API."
         },
         {
-          "tech": ["JavaScript", "jQuery"],
-          "desc": "Create custom jQuery plugins for the application like date and time pickers, data templating, and table sorting."
+          "tech": ["Solr", "PostgreSQL", "Ruby", "Rails 4", "HTTParty"],
+          "desc": "Implement repository search in Solr with HTTP in a Backbone module."
+        }
+      ]
+    },
+    {
+      "name": "Queue",
+      "desc": "A marketing SaaS for managing online social contests for thousands of users and big clients.",
+      "client": "Queue Technologies Inc.",
+      "url": "https://queueat.com/",
+      "role": "Tech Lead",
+      "employer": "Density Labs",
+      "date": {
+        "start": "Dec 2017",
+        "end": "Apr 2018"
+      },
+      "highlights": [
+        {
+          "tech": ["AWS Beanstalk", "devOps", "AWS RDS", "MySQL"],
+          "desc": "Manage staging and production environments. Fix and improve configuration for AWS services. Manage project git flow and deployments. Fix production issues."
         },
         {
-          "tech": ["html5", "css3", "JavaScript"],
-          "desc": "Create and maintaing a styleguide for the project (css and jquery plugins), with live-code examples."
+          "tech": ["Rails 4", "Redis", "Angular.js", "Facebook API", "Instagram API", "Youtube API"],
+          "desc": "Implement features in a fast-paced environment integrating APIs for multiple social platforms. Fix issues with changing Facebook APIs."
         },
         {
-          "tech": ["sass", "html5", "css3"],
-          "desc": "Refactor global and inline css sass, HTML5-compliant, and semantic, modules."
+          "tech": ["architecture", "react", "AWS Serverless"],
+          "desc": "Start implementation of React refactoring of app and roadmap for serverless refactoring."
+        }
+      ]
+    },
+    {
+      "name": "afar.com",
+      "desc": "An online magazine for world travelers.",
+      "client": "AFAR Media",
+      "url": "https://www.afar.com/",
+      "role": "Senior Ruby/JavaScript Developer",
+      "employer": "Rockstar Coders",
+      "date": {
+        "start": "May 2018",
+        "end": "Mar 2019"
+      },
+      "highlights": [
+        {
+          "tech": ["React.js", "webpack", "javaScript", "ES6", "Google Maps API", "Google Places API"],
+          "desc": "Refactor old jQuery-based CRM tool for managing places into set of 10+ reusable React components integrating Google Maps and Places API."
+        },
+        {
+          "tech": ["ux", "ui", "html5", "css3"],
+          "desc": "Redesign UI flow for one of the most used CMS tools for managing places in the site to make it load faster, work correctly, and easier to use."
+        },
+        {
+          "tech": ["Rails 4.2", "ActiveAdmin", "MySQL"],
+          "desc": "Develop new features, pages, and rake tasks for managing content and processes."
+        }
+      ]
+    },
+    {
+      "name": "InVision",
+      "desc": "A web application to manage data for a social sciences research company.",
+      "client": "Red Sequoia",
+      "role": "Senior Ruby/JavaScript Developer",
+      "employer": "Rockstar Coders",
+      "date": {
+        "start": "Feb 2019",
+        "end": "May 2019"
+      },
+      "highlights": [
+        {
+          "tech": ["Rails 4.2", "ElasticSearch", "React.js"],
+          "desc": "Implement full-text search inside attached files (.xls, .pdf, .doc, etc) using a hosted Elasticsearch instance and within a React component."
+        },
+        {
+          "tech": ["Rails 4.2", "cancancan"],
+          "desc": "Refactor role-based views using cancancan gem. Implement new roles and permissions."
+        },
+        {
+          "tech": ["Rails 4.2", "React.js", "JSX"],
+          "desc": "Refactor search bar templates and partials into reusable React component."
+        },
+        {
+          "tech": ["Rails 4.2", "Ruby"],
+          "desc": "Refactor code for search functionality and rake data management tasks to use a more object-oriented and modular approach."
+        }
+      ]
+    },
+    {
+      "name": "G5 Integrations",
+      "desc": "Software and marketing solutions for Real Estate companies.",
+      "client": "G5 Marketing",
+      "role": "Senior Ruby Engineer",
+      "employer": "Aelogica",
+      "date": {
+        "start": "Aug 2019",
+        "end": "Nov 2019"
+      },
+      "highlights": [
+        {
+          "tech": ["Ruby", "Rubygems", "Gemfury", "RSpec"],
+          "desc": "Update one of the core integration gems for a major vendor to use the MITS 4.0 standard."
+        },
+        {
+          "tech": ["Rails 5.2", "RSpec"],
+          "desc": "Implement upgrade to MITS 4.0 gem in the inventory-etl, vendor-lead-pull, and g5-vendor-leads services."
+        },
+        {
+          "tech": ["Rails 5.2", "RSpec", "Javascript"],
+          "desc": "Add pagination to integrations dashboard for pulled jobs with infinite scroll."
+        }
+      ]
+    },
+    {
+      "name": "chrysaetosapp.com",
+      "desc": "Mobile-first web products to control and improve bar/restaurant businesses.",
+      "client": "ChrysaetosApp",
+      "role": "Product Development Engineer",
+      "employer": "Freelance",
+      "date": {
+        "start": "Nov 2019",
+        "end": "Present"
+      },
+      "highlights": [
+        {
+          "tech": ["Markdown"],
+          "desc": "Gather requirements from business owners and translate them into feature specs and documentation."
+        },
+        {
+          "tech": ["Rails 5.2", "PostgreSQL"],
+          "desc": "Design the database model and document data definitions and schema."
+        },
+        {
+          "tech": ["Rails 5.2", "Minitest", "QR-codes"],
+          "desc": "Design and develop with Test Driven Development a REST API that the different client apps can interact with."
+        },
+        {
+          "tech": ["React.js", "QR-codes"],
+          "desc": "Implement 3 Single Page Application clients for the different services and products for Owners, Managers, and Employees with differet roles."
         }
       ]
     }
