@@ -3,16 +3,12 @@
   overflow: auto;
 }
 
+.App {
+  margin: 2em 0;
+}
 
 body{
   font-size: 14px;
-}
-
-
-.App {
-  max-width: 1080px;
-  margin: 0 auto;
-  padding: 2em;
 }
 
 

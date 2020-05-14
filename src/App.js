@@ -4,14 +4,13 @@ import { Gitgraph, templateExtend, TemplateName } from "@gitgraph/react";
 import "./App.css";
 
 class App extends React.Component {
-
   constructor(props) {
     super(props);
+    // COLORS: https://flatuicolors.com/palette/nl
     this.state = {
       projects: []
     };
   }
-
 
   componentDidMount() {
     window.fetch('data.json').then((response) => {
@@ -21,12 +20,14 @@ class App extends React.Component {
     });
   }
 
-  // COLORS: https://flatuicolors.com/palette/nl
-
+  // { this.state.projects.map((project) =>
+  //   <Project {...project} key={project.name} />
+  // )}
   render() {
-    // { this.state.projects.map((project) =>
-    //   <Project {...project} key={project.name} />
-    // )}
+    if (this.state.projects.length === 0) {
+      return null
+    }
+
     const options = {
       template: templateExtend(TemplateName.Metro, {
         colors: [
@@ -49,26 +50,19 @@ class App extends React.Component {
       })
     }
 
-    // learning.commit({
-    //   subject: 'Dec 2008',
-    //   body: 'Took Introduction to programming in Java (CS 142) at Brigham Young University',
-    //   dotText: 'x',
-    //   tag: 'a gag'
-    // })
-    if (this.state.projects.length === 0) {
-      return null
-    }
-
     return (
       <div className="App" >
         <h1 style={{ fontFamily: 'Arial', textAlign: 'center' }}>
           Marvin Alejandro Herrera Vizuett
         </h1>
 
-        <div style={{ marginTop: '2.5em' }}>
+        <div style={{ margin: '2em' }}>
           <Gitgraph options={options}>
             {(gitgraph) => {
               const learning = gitgraph.branch('learning');
+              const jobs = gitgraph.branch('job');
+              const freelance = gitgraph.branch('freelance');
+
               learning.commit('Initial commit');
 
               this.state.projects.forEach(project => {
