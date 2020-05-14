@@ -44,15 +44,23 @@ class App extends React.Component {
           "#006266",
           "#EE5A24"
         ],
+        branch: {
+          mergeStyle: 'straight',
+          spacing: this.state.projects.length * 4
+        },
         commit: {
-          message: { displayHash: false, displayAuthor: false }
+          message: {
+            displayHash: false,
+            displayAuthor: false
+          },
+          spacing: 50
         }
       })
     }
 
     return (
       <div className="App" >
-        <h1 style={{ fontFamily: 'Arial', textAlign: 'center' }}>
+        <h1 style={{ fontFamily: 'Arial', textAlign: 'center', color: 'gray' }}>
           Marvin Alejandro Herrera Vizuett
         </h1>
 
@@ -65,7 +73,7 @@ class App extends React.Component {
 
               learning.commit('Initial commit');
 
-              this.state.projects.forEach(project => {
+              this.state.projects.forEach((project, index) => {
                 const name = project.name;
                 const date = `${project.date.start} - ${project.date.end}`;
                 const highlights = project.highlights;
@@ -79,12 +87,17 @@ class App extends React.Component {
 
                   branch.commit({
                     subject: summary,
-                    body: desc,
-                    // tag: project.employer
+                    body: desc
                   });
                 });
 
-                branch.merge(learning, date);
+                branch.commit(project.employer);
+                branch.tag(date);
+
+                if ((index+1) !== this.state.projects.length) {
+                  learning.checkout();
+                  learning.merge(branch, ' ');
+                }
               });
             }}
           </Gitgraph>
